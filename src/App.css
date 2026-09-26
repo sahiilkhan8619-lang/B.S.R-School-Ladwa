@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #123c69;
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* HERO */
+
+.hero {
+  min-height: 550px;
+  padding: 70px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background: linear-gradient(135deg, #eaf4ff, #ffffff);
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.welcome-text {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #123c69;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin: 15px 0;
+  color: #123c69;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 550px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 13px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #123c69;
+  color: white;
+  border: 2px solid #123c69;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #123c69;
+  border: 2px solid #123c69;
+}
+
+.hero-image-box {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image-box img {
+  width: 100%;
+  max-width: 520px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ABOUT */
+
+.about {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #fff5f5;
+}
+
+.about h2,
+.highlights h2,
+.classes h2,
+.teachers h2,
+.contact h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: #123c69;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* HIGHLIGHTS */
+
+.highlights {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #f5f8fc;
+}
+
+.highlight-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.highlight-card {
+  width: 240px;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+}
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.highlight-card h3 {
+  margin-bottom: 10px;
+  color: #123c69;
+}
+
+
+/* CLASSES */
+
+.classes {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.class-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  width: 260px;
+  padding: 35px 20px;
+  background: linear-gradient(135deg, #123c69, #1d609c);
+  color: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.class-card:hover {
+  transform: translateY(-8px);
+}
+
+.class-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+
+/* TEACHERS */
+
+.teachers {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #f5f8fc;
+}
+
+.teacher-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 35px;
+  flex-wrap: wrap;
+}
+
+.teacher-card {
+  width: 260px;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.teacher-card h3 {
+  color: #123c69;
+  margin-bottom: 10px;
+}
+
+
+/* CONTACT */
+
+.contact {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #123c69;
+  color: white;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #092b4c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 6%;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image-box img {
+    height: 250px;
+  }
+
+}
+/* GALLERY */
+
+.gallery {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.gallery h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: #123c69;
+}
+
+.gallery > p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.gallery-card {
+  width: 280px;
+  background-color: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.gallery-card:hover {
+  transform: translateY(-8px);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-card h3 {
+  padding: 15px;
+  color: #123c69;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+/* ADMISSION SECTION */
+
+.admission {
+  padding: 70px 8%;
+  background: linear-gradient(135deg, #123c69, #1d609c);
+  color: white;
+  text-align: center;
+}
+
+.admission-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.admission-label {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #123c69;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admission h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.admission p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.admission-details {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 35px 0;
+}
+
+.admission-details div {
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 18px 30px;
+  border-radius: 15px;
+  min-width: 180px;
+}
+
+.admission-details strong,
+.admission-details span {
+  display: block;
+}
+
+.admission-details span {
+  margin-top: 8px;
+}
+
+.admission-btn {
+  display: inline-block;
+  background-color: white;
+  color: #123c69;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.admission-btn:hover {
+  background-color: #ffd700;
+}
+.map-box {
+  max-width: 900px;
+  margin: 30px auto 0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.map-box iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
