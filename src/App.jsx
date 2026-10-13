@@ -324,7 +324,7 @@ function App() {
   <p>📍 Ladwa, Rajasthan</p>
 
   <p>📞 <a href="tel:9664365783">9664365783</a></p>
-  <p>📞 <a href="tel:9982941672">9982941672</a></p>
+  <p>📞 <a href="tel:9982941671">9982941671</a></p>
 
   <p>
     📧
